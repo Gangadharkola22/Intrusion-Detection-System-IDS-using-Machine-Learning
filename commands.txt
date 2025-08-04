@@ -1,0 +1,7 @@
+python3 -m venv ids-env
+source ids-env/bin/activate
+
+pip install scikit-learn pandas joblib numpy scapy
+
+sudo ./ids-env/bin/python .py
+
